@@ -1,0 +1,42 @@
+---
+title: 門市據點-詳細資訊
+layout: ./app/layout.ejs
+engine: ejs
+
+---
+
+<section class="container pt-10 pb-14 pad:max-w-pad pad:py-20 mac:max-w-mac mac:pt-24">
+<h2 class="pl-4 border-l-8 border-primary mb-[30px] pad:mb-8">門市據點</h2>
+<div class="mb-[31px]">
+<label class="mr-5" for="searchStore">選擇地區</label>
+<select type="search" class="form-search text-[#495057] w-[276px] py-1.5 border-[#CED4DA]" name="searchStore" id="searchStore" value="台北市">
+  <option value="台北中山旗艦店">台北中山旗艦店</option>
+</select>
+</div>
+<ul class="grid grid-cols-1 gap-6 mac:grid-cols-2">
+  <li class="pad:grid pad:grid-cols-2: pad:gap-6 mac:grid-cols-1 mac:gap-0 ">
+    <img src="./assets/images/storepage-1.png" alt="storepage-1">
+    <div class="border border-border">
+      <p class=" text-2xl leading-base  border-border border-b py-2 px-6">台北中山旗艦店</p>
+      <ul class="text-xl leading-base px-6 py-4 space-y-2">
+        <li class="flex"><span class="material-symbols-outlined block mr-2">
+  call
+  </span><p>電話：(02)000-1234</p></li>
+        <li class="flex"><span class="material-symbols-outlined block mr-2">
+  schedule
+  </span><p>營業時間：10:00-21:00</p></li>
+  <li class="flex"><span class="material-symbols-outlined block mr-2">
+    location_on
+  </span><p>地址：台北市中山區南京東路25巷2-1號</p></li>
+</ul>
+</div>
+  </li>
+  <li>
+    <picture class="w-full mac:w-[746px] mac:h-[414px] ">
+      <source srcset="./assets/images/map.png" media="(max-width:768px)">
+      <img src="./assets/images/map-lg.png" alt="map">
+    </picture>
+
+  </li>
+  </ul>
+  </section>
