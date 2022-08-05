@@ -20,10 +20,16 @@ module.exports = {
         'info': {
           white: '#FFFFFF',
           black: '#000000',
+          lighter:'#F2F2F2',
           light: '#00000029',
           mild: '#DEE2E6',
+          milder:'#555555',
           strong: '#DCDCDC',
           dark: '#707070'
+        },
+        'warning': {
+          light: '#B75929',
+          dark:'#5F3E2D',
         }
       },
       maxWidth: {
