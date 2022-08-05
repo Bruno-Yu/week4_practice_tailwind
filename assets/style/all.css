@@ -893,14 +893,14 @@ select {
   margin-top: 0.75rem;
   margin-bottom: 0.75rem;
 }
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
 .mb-2 {
   margin-bottom: 0.5rem;
 }
 .mb-8 {
   margin-bottom: 2rem;
-}
-.mb-6 {
-  margin-bottom: 1.5rem;
 }
 .mt-auto {
   margin-top: auto;
@@ -922,6 +922,15 @@ select {
 }
 .mt-16 {
   margin-top: 4rem;
+}
+.mb-\[30px\] {
+  margin-bottom: 30px;
+}
+.mb-\[31px\] {
+  margin-bottom: 31px;
+}
+.mr-5 {
+  margin-right: 1.25rem;
 }
 .block {
   display: block;
@@ -984,6 +993,9 @@ select {
 }
 .w-1\/2 {
   width: 50%;
+}
+.w-\[276px\] {
+  width: 276px;
 }
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
@@ -1059,8 +1071,15 @@ select {
 .border {
   border-width: 1px;
 }
+.border-l-8 {
+  border-left-width: 8px;
+}
 .border-b {
   border-bottom-width: 1px;
+}
+.border-primary {
+  --tw-border-opacity: 1;
+  border-color: rgb(170 6 1 / var(--tw-border-opacity));
 }
 .border-primary-dark {
   --tw-border-opacity: 1;
@@ -1077,6 +1096,10 @@ select {
 .border-info-milder {
   --tw-border-opacity: 1;
   border-color: rgb(85 85 85 / var(--tw-border-opacity));
+}
+.border-\[\#CED4DA\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(206 212 218 / var(--tw-border-opacity));
 }
 .bg-primary {
   --tw-bg-opacity: 1;
@@ -1178,14 +1201,24 @@ select {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.pt-10 {
+  padding-top: 2.5rem;
+}
+.pb-14 {
+  padding-bottom: 3.5rem;
+}
+.pl-4 {
+  padding-left: 1rem;
+}
 .pt-4 {
   padding-top: 1rem;
 }
 .pb-6 {
   padding-bottom: 1.5rem;
-}
-.pt-10 {
-  padding-top: 2.5rem;
 }
 .pb-16 {
   padding-bottom: 4rem;
@@ -1202,10 +1235,6 @@ select {
 .align-middle {
   vertical-align: middle;
 }
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1213,6 +1242,10 @@ select {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 .text-5xl {
   font-size: 3rem;
@@ -1225,6 +1258,9 @@ select {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+.text-\[19px\] {
+  font-size: 19px;
 }
 .font-bold {
   font-weight: 700;
@@ -1261,6 +1297,10 @@ select {
   --tw-text-opacity: 1;
   color: rgb(85 85 85 / var(--tw-text-opacity));
 }
+.text-\[\#495057\] {
+  --tw-text-opacity: 1;
+  color: rgb(73 80 87 / var(--tw-text-opacity));
+}
 .shadow-review {
   --tw-shadow:  0px 2px 6px #00000029;
   --tw-shadow-colored: 0px 2px 6px var(--tw-shadow-color);
@@ -1276,6 +1316,9 @@ select {
 }
 .hover\:bg-primary\/80:hover {
   background-color: rgb(170 6 1 / 0.8);
+}
+.hover\:bg-black\/80:hover {
+  background-color: rgb(0 0 0 / 0.8);
 }
 .active\:border-b-8:active {
   border-bottom-width: 8px;
@@ -1295,6 +1338,10 @@ select {
     margin-right: -0.75rem;
   }
 
+  .pad\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
   .pad\:mb-12 {
     margin-bottom: 3rem;
   }
@@ -1311,10 +1358,6 @@ select {
     margin-right: auto;
   }
 
-  .pad\:mb-8 {
-    margin-bottom: 2rem;
-  }
-
   .pad\:block {
     display: block;
   }
@@ -1323,6 +1366,10 @@ select {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+
+  .pad\:grid {
+    display: grid;
   }
 
   .pad\:hidden {
@@ -1394,6 +1441,10 @@ select {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+
+  .pad\:gap-6 {
+    gap: 1.5rem;
   }
 
   .pad\:space-y-\[24px\] > :not([hidden]) ~ :not([hidden]) {
@@ -1545,6 +1596,10 @@ select {
     height: 3rem;
   }
 
+  .mac\:h-\[414px\] {
+    height: 414px;
+  }
+
   .mac\:w-\[calc\(\(100\%-72px\)\/4\)\] {
     width: calc((100% - 72px) / 4);
   }
@@ -1573,6 +1628,10 @@ select {
     width: 3rem;
   }
 
+  .mac\:w-\[746px\] {
+    width: 746px;
+  }
+
   .mac\:max-w-mac {
     max-width: 1296px;
   }
@@ -1583,6 +1642,14 @@ select {
 
   .mac\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .mac\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .mac\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .mac\:items-center {
@@ -1601,6 +1668,10 @@ select {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+
+  .mac\:gap-0 {
+    gap: 0px;
   }
 
   .mac\:gap-y-0 {
@@ -1628,6 +1699,10 @@ select {
   .mac\:py-20 {
     padding-top: 5rem;
     padding-bottom: 5rem;
+  }
+
+  .mac\:pt-24 {
+    padding-top: 6rem;
   }
 
   .mac\:text-\[32px\] {

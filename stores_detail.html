@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>系列鏡框_functional</title>
+  <title>門市據點-詳細資訊</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   <link rel="stylesheet" href="./assets/style/all.css">
 </head>
@@ -17,19 +17,49 @@
       <a class=" js-menu-btn " href="#"><span class="material-symbols-outlined block h-6 w-6 text-white pad:hidden">menu</span></a>
       <ul class="text-center  w-full bg-white font-bold absolute top-full left-0 z-20 js-menu hidden pad:static pad:flex pad:text-white pad:space-x-16 pad:bg-transparent pad:w-auto pad:text-xl pad:leading-normal pad:font-normal" >
         <li><a class="block py-2 border-b  border-primary-dark  pad:border-0 pad:p-0" href="./products_optical.html">系列鏡框</a></li>
-        <li><a class="block py-2 border-b  border-primary-dark pad:border-0 pad:p-0 " href="./index.html">門市據點</a></li>
+        <li><a class="block py-2 border-b  border-primary-dark pad:border-0 pad:p-0 " href="./stores.html">門市據點</a></li>
         <li><a class="block py-2 border-b  border-primary-dark pad:border-0 pad:p-0 " href="./index.html">部落格</a></li>
-        <li><a class="block py-2 border-b  border-primary-dark pad:border-0 pad:p-0" href="./index.html">常見問題</a></li>
+        <li><a class="block py-2 border-b  border-primary-dark pad:border-0 pad:p-0" href="./fnq.html">常見問題</a></li>
       </ul>
     </div>
   </header>
-    <ul class="flex bg-white pad:text-2xl pad:leading-normal mac:text-[32px] mac:leading-normal mac:mx-auto mac:max-w-mac">
-      <li class="w-1/3 border border-info-strong "><a href="./products_optical.html" class="block hover:border-b-8 hover:border-primary active:border-b-8 active:border-primary text-center py-4 font-medium">OPTICAL</a></li>
-      <li class="w-1/3 border border-info-strong "><a href="./products_sunglasses.html" class="hover:border-b-8 hover:border-primary active:border-b-8 active:border-primary block text-center py-4 font-medium">SUNGLASSES</a></li>
-      <li class="w-1/3 border border-info-strong "><a href="./products_functional.html" class="hover:border-b-8 hover:border-primary active:border-b-8 active:border-primary block text-center py-4 font-medium">FUNCTIONAL</a></li>
-    </ul>
 
   
+<section class="container pt-10 pb-14 pad:max-w-pad pad:py-20 mac:max-w-mac mac:pt-24">
+<h2 class="pl-4 border-l-8 border-primary mb-[30px] pad:mb-8">門市據點</h2>
+<div class="mb-[31px]">
+<label class="mr-5" for="searchStore">選擇地區</label>
+<select type="search" class="form-search text-[#495057] w-[276px] py-1.5 border-[#CED4DA]" name="searchStore" id="searchStore" value="台北市">
+  <option value="台北中山旗艦店">台北中山旗艦店</option>
+</select>
+</div>
+<ul class="grid grid-cols-1 gap-6 mac:grid-cols-2">
+  <li class="pad:grid pad:grid-cols-2: pad:gap-6 mac:grid-cols-1 mac:gap-0 ">
+    <img src="./assets/images/storepage-1.png" alt="storepage-1">
+    <div class="border border-border">
+      <p class=" text-2xl leading-base  border-border border-b py-2 px-6">台北中山旗艦店</p>
+      <ul class="text-xl leading-base px-6 py-4 space-y-2">
+        <li class="flex"><span class="material-symbols-outlined block mr-2">
+  call
+  </span><p>電話：(02)000-1234</p></li>
+        <li class="flex"><span class="material-symbols-outlined block mr-2">
+  schedule
+  </span><p>營業時間：10:00-21:00</p></li>
+  <li class="flex"><span class="material-symbols-outlined block mr-2">
+    location_on
+  </span><p>地址：台北市中山區南京東路25巷2-1號</p></li>
+</ul>
+</div>
+  </li>
+  <li>
+    <picture class="w-full mac:w-[746px] mac:h-[414px] ">
+      <source srcset="./assets/images/map.png" media="(max-width:768px)">
+      <img src="./assets/images/map-lg.png" alt="map">
+    </picture>
+
+  </li>
+  </ul>
+  </section>
 
   <footer class="bg-primary   text-white">
     <div class="px-3.5 mx-auto pad:max-w-pad  mac:max-w-mac">
@@ -38,10 +68,10 @@
           <li class="hidden pad:block pad:mb-6">
             <ul class="pad:flex pad:space-x-12">
               <li><a href="./index.html">首頁</a></li>
-              <li><a href="./index.html"></a>系列鏡框</li>
-              <li><a href="./index.html"></a>門市據點</li>
+              <li><a href="./products_optical.html"></a>系列鏡框</li>
+              <li><a href="./stores.html"></a>門市據點</li>
               <li><a href="./index.html"></a>部落格</li>
-              <li><a href="./index.html"></a>常見問題</li>
+              <li><a href="./fnq.html"></a>常見問題</li>
             </ul>
           </li>
           <li class="pad:text-4xl pad:leading-normal"><a href="tel:+0800-000-000"><span class="material-symbols-outlined text-lg pad:text-4xl pad:leading-normal mr-3 align-middle">call</span>0800-000-000</a></li>
