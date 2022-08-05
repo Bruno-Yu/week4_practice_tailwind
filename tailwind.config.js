@@ -22,6 +22,7 @@ module.exports = {
           black: '#000000',
           lighter:'#F2F2F2',
           light: '#00000029',
+          border: '#00000020',
           mild: '#DEE2E6',
           milder:'#555555',
           strong: '#DCDCDC',
